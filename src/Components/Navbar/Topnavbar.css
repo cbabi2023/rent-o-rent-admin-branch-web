@@ -6,12 +6,13 @@
     width: 100px; 
     height: auto; 
     margin-top: 10px;
+    padding: 10px;
   }
   .navbar {
     display: flex;
     justify-content: space-between; /* Space out left and right sections */
     align-items: center; /* Vertically align items */
-    width: 100%;
+    width: 98%;
     height: 70px;
     padding: 0 20px;
     background: white;

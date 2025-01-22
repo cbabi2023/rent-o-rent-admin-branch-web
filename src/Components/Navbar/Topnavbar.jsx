@@ -13,7 +13,7 @@ function Topnavbar() {
         <div
           data-layer="Rectangle 1"
           className="Rectangle1"
-          style={{ width: 1200, height: 70, background: 'white' }}
+          style={{ width: 1000, height: 70, background: 'white' }}
         />
         <img className="logo" src={logo} alt="Logo" style={{ width: '100px' }} />
       </div>
@@ -23,12 +23,10 @@ function Topnavbar() {
         <div
           className="divider"
           style={{
-            width: 50,
-            height: 0,
-            transform: 'rotate(90deg)',
-            transformOrigin: '0 0',
+            height: '40px', // Match h5 font size
             opacity: 0.2,
-            border: '1px black solid',
+            borderLeft: '1px solid black',
+            marginRight: '15px',
           }}
         ></div>
 
@@ -63,7 +61,6 @@ function Topnavbar() {
           </h6>
         </div>
 
-        {/* Profile Picture */}
         <img
           style={{
             width: 36,
@@ -75,7 +72,6 @@ function Topnavbar() {
           alt="Profile"
         />
 
-        {/* Chevron Icon */}
         <ChevronDown style={{ padding: '8px' }} />
       </div>
     </div>
